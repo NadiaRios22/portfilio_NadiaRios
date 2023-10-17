@@ -1,0 +1,36 @@
+#über_mich {
+  padding: 100px 0;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap-reverse;
+}
+.über_mich_text {
+  width: 750px;
+  max-width: 90%;
+}
+#über_mich img {
+  width: 400px;
+  border: 15px solid var(--text-color);
+  max-width: calc(90% - 30px);
+}
+.über_mich_text h2 {
+  font-size: 80px;
+  /* display: flex;
+  justify-content: center; */
+}
+.über_mich_text p {
+  text-align: justify;
+  line-height: 175%;
+}
+@media (max-width: 800px) {
+  #über_mich {
+    padding: 50px 0;
+  }
+  .über_mich_text h2 {
+    text-align: center;
+    font-size: 12vw;
+  }
+}
