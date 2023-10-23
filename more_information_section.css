@@ -1,8 +1,8 @@
-footer {
+#more_information_section {
   padding: 70px 0;
   background-color: var(--secondary-color);
 }
-footer h2 {
+#more_information_section h2 {
   font-size: 50px;
   text-align: center;
 }
@@ -79,7 +79,7 @@ footer h2 {
   }
 }
 @media (max-width: 650px) {
-  footer h2 {
+  #more_information_section h2 {
     font-size: 9vw;
   }
   .grid_item {
